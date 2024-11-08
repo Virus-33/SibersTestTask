@@ -1,0 +1,49 @@
+﻿@model TTask.Models.Person
+
+@{
+    List<SelectListItem> roles = new List<SelectListItem>();
+    roles.Add(new SelectListItem
+    {
+        Text = "Employee",
+        Value = "0",
+        Selected = true
+    });
+    roles.Add(new SelectListItem
+    {
+        Text = "Manager",
+        Value = "1"
+    });
+    roles.Add(new SelectListItem
+    {
+        Text = "CEO",
+        Value = "2"
+    });
+}
+
+<h2>Creating new employee</h2>
+<form asp-action="CreatePerson" asp-controller="Home">
+    <p>
+        <label>Name</label><br/>
+        <input type="text" asp-for="Name" />
+    </p>
+    <p>
+        <label>Surname</label>
+        <input type="text" asp-for="Surname" />
+    </p>
+    <p>
+        <label>Patronymic (if have one)</label>
+        <input type="text" asp-for="Patronymic"/>
+    </p>
+    <p>
+        <label>E-mail</label>
+        <input type="text" asp-for="Email" />
+    </p>
+    <p>
+        <label>Role</label>
+        @Html.DropDownList("Role", roles);
+    </p>
+    <p>
+        <input type="submit" value="Submit" />
+    </p>
+</form>
+

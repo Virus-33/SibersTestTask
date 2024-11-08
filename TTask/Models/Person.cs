@@ -11,6 +11,11 @@
             Email = email;
         }
 
+        public Person()
+        {
+            
+        }
+
         public int Id { get; set; }
 
         public string Name { get; set; }
@@ -21,7 +26,20 @@
 
         public string Email { get; set; }
 
-        public Roles Role { get; set; }
+        private Roles role;
+        public Roles Role { 
+            get 
+            { 
+                return role; 
+            } 
+            set 
+            { 
+                if (value.GetType() == typeof(string))
+                {
+
+                }
+            } 
+        }
 
         public enum Roles : int
         {

@@ -1,4 +1,10 @@
+using Microsoft.EntityFrameworkCore;
+using TTask.Models;
+
 var builder = WebApplication.CreateBuilder(args);
+
+string connection = builder.Configuration.GetConnectionString("DefaultConnection");
+builder.Services.AddDbContext<ApplicationContext>(options => options.UseSqlite(connection));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
