@@ -1,4 +1,5 @@
-﻿namespace TTask.Models
+﻿
+namespace TTask.Models
 {
     public class Person
     {
@@ -26,19 +27,12 @@
 
         public string Email { get; set; }
 
-        private Roles role;
-        public Roles Role { 
-            get 
-            { 
-                return role; 
-            } 
-            set 
-            { 
-                if (value.GetType() == typeof(string))
-                {
+        public Project ManagingProject { get; set; }
 
-                }
-            } 
+        public List<Project> Projects { get; set; } = new();
+
+        public Roles Role {
+            get; set; 
         }
 
         public enum Roles : int

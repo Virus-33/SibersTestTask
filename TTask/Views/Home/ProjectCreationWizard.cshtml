@@ -1,5 +1,47 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model TTask.Models.Project
+
 @{
+    List<Person> people = ViewBag.People;
+
+    List<SelectListItem> sli = new();
+    for (int i = 0; i < people.Count; i++)
+    {
+        sli.Add(new SelectListItem(string.Format("{0} {1} {2}", people[i].Surname, people[i].Name, people[i].Patronymic), people[i].Id.ToString()));
+    }
 }
+
+<h2>Добавление проекта</h2>
+
+<form id="wizard" asp-action="CreateProject" asp-controller="Home">
+    <label>Название проекта</label>
+    <br />
+    <input type="text" asp-for="Name" required />
+    <br /><br />
+    <label>Даты начала и окончания проекта</label>
+    <br />
+    <input type="date" asp-for="StartingDate" required />→
+    <input type="date" asp-for="EndingDate" />
+    <br/>
+    <label>Приоритет проекта. Чем больше, тем важнее</label>
+    <br />
+    <input type="number" asp-for="Priority" />
+    <br />
+    <br />
+    <label>Наименование компании-заказчика</label>
+    <br />
+    <input type="text" asp-for="ClientCompany" required />
+    <br /><br />
+    <label>Наименование компании-исполнителя</label>
+    <br />
+    <input type="text" asp-for="ExecutorCompany" required />
+    <br /><br />
+    <legend>Выберите руководителя проекта среди сотрудников:</legend>
+    <br />
+    <select asp-for="ManagerKey" asp-items="sli" required></select>
+    <br /><br />
+    <legend>Выберите исполнителей проекта:</legend>
+    <br />
+    <select asp-for="PeopleKeys" asp-items="sli" multiple required></select>
+    <br />
+    <input type="submit" value="Отправить"/>
+</form>

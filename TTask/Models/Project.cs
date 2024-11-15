@@ -1,16 +1,9 @@
-﻿namespace TTask.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace TTask.Models
 {
     public class Project
     {
-        public Project(int id, string name, string ccompany, string ecompany, DateOnly sdate, DateOnly edate) 
-        {
-            Id = id;
-            Name = name;
-            ClientCompany = ccompany;
-            ExecutorCompany = ecompany;
-            StartingDate = sdate;
-            EndingDate = edate;
-        }
 
         public Project()
         {
@@ -28,9 +21,15 @@
 
         public DateOnly EndingDate { get; set; }
         
+        public int ManagerKey {  get; set; }
+
+        [NotMapped]
         public Person ProjectManager { get; set; }
 
-        public List<Person> People { get; set; }
+        public List<Person> People { get; set; } = new();
+
+        [NotMapped]
+        public List<int> PeopleKeys { get; set; } = new();
 
         public int Priority {  get; set; }
     }

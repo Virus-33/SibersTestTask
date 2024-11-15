@@ -1,7 +1,7 @@
 ﻿@model TTask.Models.Person
 
 @{
-    List<SelectListItem> roles = new List<SelectListItem>();
+    List<SelectListItem> roles = new();
     roles.Add(new SelectListItem
     {
         Text = "Employee",
@@ -20,15 +20,15 @@
     });
 }
 
-<h2>Creating new employee</h2>
+<h2>Занесение нового сотрудника</h2>
 <form asp-action="CreatePerson" asp-controller="Home">
     <p>
         <label>Name</label><br/>
-        <input type="text" asp-for="Name" />
+        <input type="text" asp-for="Name" required />
     </p>
     <p>
         <label>Surname</label>
-        <input type="text" asp-for="Surname" />
+        <input type="text" asp-for="Surname" required />
     </p>
     <p>
         <label>Patronymic (if have one)</label>
@@ -36,7 +36,7 @@
     </p>
     <p>
         <label>E-mail</label>
-        <input type="text" asp-for="Email" />
+        <input type="text" asp-for="Email" required />
     </p>
     <p>
         <label>Role</label>
