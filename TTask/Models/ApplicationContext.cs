@@ -7,11 +7,10 @@ namespace TTask.Models
         public DbSet<Person> People { get; set; } = null!;
         public DbSet<Project> Projects { get; set; } = null!;
 
+        public DbSet<Task> Tasks { get; set; } = null!;
+
         public ApplicationContext(DbContextOptions<ApplicationContext> options)
-            :base(options)
-        {
-            Database.EnsureCreated();
-        }
+            :base(options) { }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -22,8 +21,13 @@ namespace TTask.Models
 
             modelBuilder.Entity<Person>()
                 .HasOne(p => p.ManagingProject)
-                .WithOne(pl => pl.ProjectManager)
+                .WithOne(pr => pr.ProjectManager)
                 .HasForeignKey<Project>(p=>p.ManagerKey);
+
+            modelBuilder.Entity<Project>()
+                .HasMany(p => p.Tasks)
+                .WithOne(t => t.Project)
+                .HasForeignKey(tk => tk.ProjectKey);
         }
     }
 }

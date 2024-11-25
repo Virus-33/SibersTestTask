@@ -41,7 +41,9 @@
     <br /><br />
     <legend>Выберите исполнителей проекта:</legend>
     <br />
-    <select asp-for="PeopleKeys" asp-items="sli" multiple required></select>
+    <label>Мультивыбор доступен при удержании Ctrl</label>
+    <br />
+    <select asp-for="PeopleKeys" asp-items="sli" size="4" multiple required></select>
     <br />
     <input type="submit" value="Отправить"/>
 </form>

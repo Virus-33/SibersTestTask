@@ -31,6 +31,9 @@ namespace TTask.Models
         [NotMapped]
         public List<int> PeopleKeys { get; set; } = new();
 
+        [NotMapped]
+        public List<Task> Tasks { get; set; } = new();
+
         public int Priority {  get; set; }
     }
 }
