@@ -6,7 +6,6 @@ namespace TTask.Models
     {
         public DbSet<Person> People { get; set; } = null!;
         public DbSet<Project> Projects { get; set; } = null!;
-
         public DbSet<Task> Tasks { get; set; } = null!;
 
         public ApplicationContext(DbContextOptions<ApplicationContext> options)

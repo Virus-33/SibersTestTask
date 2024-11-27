@@ -1,0 +1,55 @@
+﻿@model TTask.Models.Task
+
+@{
+    List<SelectListItem> sliprojects = new();
+
+    List<SelectListItem> slipployees = new();
+
+    List<SelectListItem> sliTasks = new();
+
+    List<SelectListItem> sliStatus = new()
+    {
+        new SelectListItem("ToDo", "0", true),
+        new SelectListItem("InProgress", "1"),
+        new SelectListItem("Done", "2")
+    };
+
+    foreach(Project p in ViewBag.Projects)
+    {
+        sliprojects.Add(new SelectListItem(p.Name, p.Id.ToString(), sliprojects.Count < 1 ? true : false));
+    }
+
+    foreach(Person p in ViewBag.People)
+    {
+        slipployees.Add(new SelectListItem(string.Format("{0} {1} {2}", p.Surname, p.Name, p.Patronymic), p.Id.ToString()));
+    }
+
+    foreach (TTask.Models.Task task in ViewBag.Tasks)
+    {
+        sliTasks.Add(new SelectListItem(task.Name, task.Id.ToString(), sliTasks.Count < 1 ? true : false));
+    }
+}
+
+<h2>Редактор задач</h2>
+<button><a asp-controller="Home" asp-action="/AddTask">Добавить задачу</a></button><br />
+<form asp-action="ChangeTask" asp-controller="Home">
+<select asp-items="sliTasks" asp-for="Id"></select>
+<label>Название</label><br />
+<input asp-for="Name" type="text" required/>
+<br /><br />
+<label>Автор задачи</label><br />
+<select asp-items="slipployees" asp-for="AutorId"></select>
+<br /><br />
+<label>Выполняющий задачу:</label><br />
+<select asp-items="slipployees" asp-for="ExecutorId"></select>
+<br /><br />
+<label>Статус задачи</label><br />
+<select asp-items="sliStatus" asp-for="Status"></select>
+<br /><br />
+<label>Проект</label><br/>
+<select asp-items="sliprojects" asp-for="ProjectKey"></select>
+<button type="submit" value="Изменить"></button>
+</form>
+
+
+

@@ -1,0 +1,43 @@
+﻿@model TTask.Models.Task
+
+@{
+    List<SelectListItem> statusIds = new()
+    {
+        new SelectListItem("ToDo", "0", true),
+        new SelectListItem("InProgress", "1"),
+        new SelectListItem("Done", "2")
+    };
+
+    List<SelectListItem> people = new();
+    List<SelectListItem> projects = new();
+
+    foreach (Person p in ViewBag.People)
+    {
+        people.Add(new SelectListItem(string.Format("{0} {1} {2}", p.Surname, p.Name, p.Patronymic), p.Id.ToString(), people.Count < 1 ? true : false));
+    }
+
+    foreach (Project p in ViewBag.Projects)
+    {
+        projects.Add(new SelectListItem(p.Name, p.Id.ToString(), projects.Count < 1 ? true : false));
+    }
+}
+
+<h2>Добавление задачи</h2>
+<form asp-action="AddTask", asp-controller="Home">
+    <label>Название</label><br />
+    <input type="text" asp-for="Name" required />
+    <br /><br />
+    <label>Автор задачи</label><br />
+    <select asp-items="people" asp-for="AutorId"></select>
+    <br /><br />
+    <label>Выполняющий задачу:</label><br />
+    <select asp-items="people" asp-for="ExecutorId"></select>
+    <br /><br />
+    <label>Статус задачи</label><br />
+    <select asp-items="statusIds" asp-for="Status"></select>
+    <br /><br />
+    <label>Проект</label><br />
+    <select asp-items="projects" asp-for="ProjectKey"></select>
+    <button type="submit" value="Добавить"></button>
+</form>
+

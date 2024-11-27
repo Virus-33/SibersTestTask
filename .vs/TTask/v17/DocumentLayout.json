@@ -3,40 +3,36 @@
   "WorkspaceRootPath": "F:\\projects\\TTask\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8D8B6691-6D25-43E8-802C-C582A9EA60DA}|TTask\\TTask.csproj|f:\\projects\\ttask\\ttask\\migrations\\applicationcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D8B6691-6D25-43E8-802C-C582A9EA60DA}|TTask\\TTask.csproj|solutionrelative:ttask\\migrations\\applicationcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8D8B6691-6D25-43E8-802C-C582A9EA60DA}|TTask\\TTask.csproj|f:\\projects\\ttask\\ttask\\views\\home\\projectredactor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D8B6691-6D25-43E8-802C-C582A9EA60DA}|TTask\\TTask.csproj|solutionrelative:ttask\\views\\home\\projectredactor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D8B6691-6D25-43E8-802C-C582A9EA60DA}|TTask\\TTask.csproj|f:\\projects\\ttask\\ttask\\migrations\\20241123064419_tasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D8B6691-6D25-43E8-802C-C582A9EA60DA}|TTask\\TTask.csproj|solutionrelative:ttask\\migrations\\20241123064419_tasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D8B6691-6D25-43E8-802C-C582A9EA60DA}|TTask\\TTask.csproj|f:\\projects\\ttask\\ttask\\migrations\\20241125053645_tasks_redacted.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D8B6691-6D25-43E8-802C-C582A9EA60DA}|TTask\\TTask.csproj|solutionrelative:ttask\\migrations\\20241125053645_tasks_redacted.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D8B6691-6D25-43E8-802C-C582A9EA60DA}|TTask\\TTask.csproj|f:\\projects\\ttask\\ttask\\migrations\\20241125053915_removed_redunant_code.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D8B6691-6D25-43E8-802C-C582A9EA60DA}|TTask\\TTask.csproj|solutionrelative:ttask\\migrations\\20241125053915_removed_redunant_code.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D8B6691-6D25-43E8-802C-C582A9EA60DA}|TTask\\TTask.csproj|f:\\projects\\ttask\\ttask\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D8B6691-6D25-43E8-802C-C582A9EA60DA}|TTask\\TTask.csproj|solutionrelative:ttask\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D8B6691-6D25-43E8-802C-C582A9EA60DA}|TTask\\TTask.csproj|f:\\projects\\ttask\\ttask\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D8B6691-6D25-43E8-802C-C582A9EA60DA}|TTask\\TTask.csproj|solutionrelative:ttask\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D8B6691-6D25-43E8-802C-C582A9EA60DA}|TTask\\TTask.csproj|f:\\projects\\ttask\\ttask\\models\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D8B6691-6D25-43E8-802C-C582A9EA60DA}|TTask\\TTask.csproj|solutionrelative:ttask\\models\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8D8B6691-6D25-43E8-802C-C582A9EA60DA}|TTask\\TTask.csproj|f:\\projects\\ttask\\ttask\\views\\home\\addtask.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D8B6691-6D25-43E8-802C-C582A9EA60DA}|TTask\\TTask.csproj|solutionrelative:ttask\\views\\home\\addtask.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D8B6691-6D25-43E8-802C-C582A9EA60DA}|TTask\\TTask.csproj|f:\\projects\\ttask\\ttask\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D8B6691-6D25-43E8-802C-C582A9EA60DA}|TTask\\TTask.csproj|solutionrelative:ttask\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D8B6691-6D25-43E8-802C-C582A9EA60DA}|TTask\\TTask.csproj|f:\\projects\\ttask\\ttask\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D8B6691-6D25-43E8-802C-C582A9EA60DA}|TTask\\TTask.csproj|solutionrelative:ttask\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8D8B6691-6D25-43E8-802C-C582A9EA60DA}|TTask\\TTask.csproj|f:\\projects\\ttask\\ttask\\views\\home\\projectcreationwizard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D8B6691-6D25-43E8-802C-C582A9EA60DA}|TTask\\TTask.csproj|solutionrelative:ttask\\views\\home\\projectcreationwizard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D8B6691-6D25-43E8-802C-C582A9EA60DA}|TTask\\TTask.csproj|f:\\projects\\ttask\\ttask\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D8B6691-6D25-43E8-802C-C582A9EA60DA}|TTask\\TTask.csproj|solutionrelative:ttask\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D8B6691-6D25-43E8-802C-C582A9EA60DA}|TTask\\TTask.csproj|f:\\projects\\ttask\\ttask\\views\\home\\personredactor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D8B6691-6D25-43E8-802C-C582A9EA60DA}|TTask\\TTask.csproj|solutionrelative:ttask\\views\\home\\personredactor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D8B6691-6D25-43E8-802C-C582A9EA60DA}|TTask\\TTask.csproj|f:\\projects\\ttask\\ttask\\views\\home\\createperson.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D8B6691-6D25-43E8-802C-C582A9EA60DA}|TTask\\TTask.csproj|solutionrelative:ttask\\views\\home\\createperson.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D8B6691-6D25-43E8-802C-C582A9EA60DA}|TTask\\TTask.csproj|f:\\projects\\ttask\\ttask\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D8B6691-6D25-43E8-802C-C582A9EA60DA}|TTask\\TTask.csproj|solutionrelative:ttask\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,118 +47,104 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ApplicationContextModelSnapshot.cs",
-              "DocumentMoniker": "F:\\projects\\TTask\\TTask\\Migrations\\ApplicationContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "TTask\\Migrations\\ApplicationContextModelSnapshot.cs",
-              "ToolTip": "F:\\projects\\TTask\\TTask\\Migrations\\ApplicationContextModelSnapshot.cs",
-              "RelativeToolTip": "TTask\\Migrations\\ApplicationContextModelSnapshot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T05:44:07.571Z",
+              "Title": "ProjectRedactor.cshtml",
+              "DocumentMoniker": "F:\\projects\\TTask\\TTask\\Views\\Home\\ProjectRedactor.cshtml",
+              "RelativeDocumentMoniker": "TTask\\Views\\Home\\ProjectRedactor.cshtml",
+              "ToolTip": "F:\\projects\\TTask\\TTask\\Views\\Home\\ProjectRedactor.cshtml",
+              "RelativeToolTip": "TTask\\Views\\Home\\ProjectRedactor.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T08:06:46.852Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "20241123064419_Tasks.cs",
-              "DocumentMoniker": "F:\\projects\\TTask\\TTask\\Migrations\\20241123064419_Tasks.cs",
-              "RelativeDocumentMoniker": "TTask\\Migrations\\20241123064419_Tasks.cs",
-              "ToolTip": "F:\\projects\\TTask\\TTask\\Migrations\\20241123064419_Tasks.cs",
-              "RelativeToolTip": "TTask\\Migrations\\20241123064419_Tasks.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T05:44:04.76Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "20241125053645_tasks_redacted.cs",
-              "DocumentMoniker": "F:\\projects\\TTask\\TTask\\Migrations\\20241125053645_tasks_redacted.cs",
-              "RelativeDocumentMoniker": "TTask\\Migrations\\20241125053645_tasks_redacted.cs",
-              "ToolTip": "F:\\projects\\TTask\\TTask\\Migrations\\20241125053645_tasks_redacted.cs",
-              "RelativeToolTip": "TTask\\Migrations\\20241125053645_tasks_redacted.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T05:43:59.278Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "20241125053915_removed_redunant_code.cs",
-              "DocumentMoniker": "F:\\projects\\TTask\\TTask\\Migrations\\20241125053915_removed_redunant_code.cs",
-              "RelativeDocumentMoniker": "TTask\\Migrations\\20241125053915_removed_redunant_code.cs",
-              "ToolTip": "F:\\projects\\TTask\\TTask\\Migrations\\20241125053915_removed_redunant_code.cs",
-              "RelativeToolTip": "TTask\\Migrations\\20241125053915_removed_redunant_code.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T05:43:53.917Z",
+              "Title": "AddTask.cshtml",
+              "DocumentMoniker": "F:\\projects\\TTask\\TTask\\Views\\Home\\AddTask.cshtml",
+              "RelativeDocumentMoniker": "TTask\\Views\\Home\\AddTask.cshtml",
+              "ToolTip": "F:\\projects\\TTask\\TTask\\Views\\Home\\AddTask.cshtml",
+              "RelativeToolTip": "TTask\\Views\\Home\\AddTask.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T07:18:12.789Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "F:\\projects\\TTask\\TTask\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "TTask\\Controllers\\HomeController.cs",
-              "ToolTip": "F:\\projects\\TTask\\TTask\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "TTask\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAawEAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T05:38:52.949Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Project.cs",
-              "DocumentMoniker": "F:\\projects\\TTask\\TTask\\Models\\Project.cs",
-              "RelativeDocumentMoniker": "TTask\\Models\\Project.cs",
-              "ToolTip": "F:\\projects\\TTask\\TTask\\Models\\Project.cs",
-              "RelativeToolTip": "TTask\\Models\\Project.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAmwBsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T07:01:50.67Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Task.cs",
-              "DocumentMoniker": "F:\\projects\\TTask\\TTask\\Models\\Task.cs",
-              "RelativeDocumentMoniker": "TTask\\Models\\Task.cs",
-              "ToolTip": "F:\\projects\\TTask\\TTask\\Models\\Task.cs",
-              "RelativeToolTip": "TTask\\Models\\Task.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T06:18:28.732Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Person.cs",
-              "DocumentMoniker": "F:\\projects\\TTask\\TTask\\Models\\Person.cs",
-              "RelativeDocumentMoniker": "TTask\\Models\\Person.cs",
-              "ToolTip": "F:\\projects\\TTask\\TTask\\Models\\Person.cs",
-              "RelativeToolTip": "TTask\\Models\\Person.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T09:44:48.029Z",
+              "Title": "PersonRedactor.cshtml",
+              "DocumentMoniker": "F:\\projects\\TTask\\TTask\\Views\\Home\\PersonRedactor.cshtml",
+              "RelativeDocumentMoniker": "TTask\\Views\\Home\\PersonRedactor.cshtml",
+              "ToolTip": "F:\\projects\\TTask\\TTask\\Views\\Home\\PersonRedactor.cshtml",
+              "RelativeToolTip": "TTask\\Views\\Home\\PersonRedactor.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-27T07:16:12.942Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "ApplicationContext.cs",
-              "DocumentMoniker": "F:\\projects\\TTask\\TTask\\Models\\ApplicationContext.cs",
-              "RelativeDocumentMoniker": "TTask\\Models\\ApplicationContext.cs",
-              "ToolTip": "F:\\projects\\TTask\\TTask\\Models\\ApplicationContext.cs",
-              "RelativeToolTip": "TTask\\Models\\ApplicationContext.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwB0AAAA0AAAAAAAAAA==",
+              "Title": "CreatePerson.cshtml",
+              "DocumentMoniker": "F:\\projects\\TTask\\TTask\\Views\\Home\\CreatePerson.cshtml",
+              "RelativeDocumentMoniker": "TTask\\Views\\Home\\CreatePerson.cshtml",
+              "ToolTip": "F:\\projects\\TTask\\TTask\\Views\\Home\\CreatePerson.cshtml",
+              "RelativeToolTip": "TTask\\Views\\Home\\CreatePerson.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T07:26:52.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "F:\\projects\\TTask\\TTask\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TTask\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "F:\\projects\\TTask\\TTask\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TTask\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAB0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T07:24:17.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProjectCreationWizard.cshtml",
+              "DocumentMoniker": "F:\\projects\\TTask\\TTask\\Views\\Home\\ProjectCreationWizard.cshtml",
+              "RelativeDocumentMoniker": "TTask\\Views\\Home\\ProjectCreationWizard.cshtml",
+              "ToolTip": "F:\\projects\\TTask\\TTask\\Views\\Home\\ProjectCreationWizard.cshtml",
+              "RelativeToolTip": "TTask\\Views\\Home\\ProjectCreationWizard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T07:09:42.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "F:\\projects\\TTask\\TTask\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "TTask\\Controllers\\HomeController.cs",
+              "ToolTip": "F:\\projects\\TTask\\TTask\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "TTask\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAA0wEYAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T05:11:15.039Z",
+              "WhenOpened": "2024-11-25T06:14:55.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Task.cs",
+              "DocumentMoniker": "F:\\projects\\TTask\\TTask\\Models\\Task.cs",
+              "RelativeDocumentMoniker": "TTask\\Models\\Task.cs",
+              "ToolTip": "F:\\projects\\TTask\\TTask\\Models\\Task.cs",
+              "RelativeToolTip": "TTask\\Models\\Task.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T05:25:00.682Z",
               "EditorCaption": ""
             }
           ]

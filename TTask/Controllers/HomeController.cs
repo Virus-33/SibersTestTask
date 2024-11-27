@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using System.Threading.Tasks;
 using TTask.Models;
 
 namespace TTask.Controllers
@@ -19,12 +20,26 @@ namespace TTask.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult TaskRedactor()
         {
+            ViewBag.Tasks = db.Tasks.ToList();
+
+            ViewBag.People = db.People.ToList();
+            ViewBag.Projects = db.Projects.ToList();
+
             return View();
         }
 
-        public IActionResult NewPage()
+
+        public IActionResult AddTask()
+        {
+            ViewBag.People = db.People.ToList();
+            ViewBag.Projects = db.Projects.ToList();
+
+            return View();
+        }
+
+        public IActionResult Privacy()
         {
             return View();
         }
@@ -39,6 +54,48 @@ namespace TTask.Controllers
         public IActionResult CreatePerson()
         {
             return View();
+        }
+
+        public IActionResult PersonRedactor()
+        {
+            ViewBag.People = db.People.ToList();
+
+            return View();
+        }
+
+        public IActionResult ProjectRedactor()
+        {
+            ViewBag.People = db.People.ToList();
+            ViewBag.Projects = db.Projects.ToList();
+
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> RedactPerson(Person person)
+        {
+            db.People.Remove(db.People.Where(i => i.Id == person.Id).First());
+            db.People.Add(person);
+            await db.SaveChangesAsync();
+            return RedirectToAction("Index");
+        }
+
+
+        [HttpPost]
+        public async Task<IActionResult> AddTask(Models.Task task)
+        {
+            db.Tasks.Add(task);
+            await db.SaveChangesAsync();
+            return RedirectToAction("Index");
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> ChangeTask(Models.Task task)
+        {
+            db.Tasks.Remove(db.Tasks.Where(i => i.Id == task.Id).First());
+            db.Tasks.Add(task);
+            await db.SaveChangesAsync();
+            return RedirectToAction("Index");
         }
 
         [HttpPost]
@@ -64,19 +121,6 @@ namespace TTask.Controllers
             return RedirectToAction("Index");
         }
 
-        [HttpPost]
-        [Route("Home/form")]
-        public IActionResult PersonSearch(string searchstring)
-        {
-            var all_persons = db.People.Where(a => (a.Surname + " " + a.Name + " " + a.Patronymic).Contains(searchstring)).ToList();
-
-            if (all_persons.Count == 0)
-            {
-                return NotFound();
-            }
-
-            return PartialView(all_persons);
-        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

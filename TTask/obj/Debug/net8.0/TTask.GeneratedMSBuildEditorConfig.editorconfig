@@ -1,11 +1,19 @@
 is_global = true
 build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TTask
 build_property.RootNamespace = TTask
@@ -18,6 +26,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = F:\projects\TTask\TTask
 build_property._RazorSourceGeneratorDebug = 
 
+[F:/projects/TTask/TTask/Views/Home/AddTask.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRUYXNrLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/projects/TTask/TTask/Views/Home/CreatePerson.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVhdGVQZXJzb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -26,8 +38,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[F:/projects/TTask/TTask/Views/Home/NewPage.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOZXdQYWdlLmNzaHRtbA==
+[F:/projects/TTask/TTask/Views/Home/PersonRedactor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQZXJzb25SZWRhY3Rvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/projects/TTask/TTask/Views/Home/Privacy.cshtml]
@@ -36,6 +48,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [F:/projects/TTask/TTask/Views/Home/ProjectCreationWizard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9qZWN0Q3JlYXRpb25XaXphcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/projects/TTask/TTask/Views/Home/ProjectRedactor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9qZWN0UmVkYWN0b3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/projects/TTask/TTask/Views/Home/TaskRedactor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUYXNrUmVkYWN0b3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/projects/TTask/TTask/Views/Shared/Error.cshtml]

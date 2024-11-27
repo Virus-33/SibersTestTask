@@ -13,6 +13,12 @@ namespace TTask.Models
 
         public Person Executor { get; set; }
 
+        [NotMapped]
+        public int AutorId { get; set; }
+
+        [NotMapped]
+        public int ExecutorId { get; set; }
+
         public StatusID Status { get; set; }
 
         public string Commentary { get; set; }

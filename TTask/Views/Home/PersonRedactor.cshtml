@@ -1,0 +1,31 @@
+﻿@model Person
+
+@{
+    List<SelectListItem> roles = new()
+    {
+        new SelectListItem("Сотрудник", "0", true),
+        new SelectListItem("Менеджер проекта", "1"),
+        new SelectListItem("Руководитель", "2")
+    };
+
+    List<SelectListItem> people = new();
+
+    foreach (Person p in ViewBag.People)
+    {
+        people.Add(new SelectListItem(string.Format("{0} {1} {2}", p.Surname, p.Name, p.Patronymic), p.Id.ToString(), people.Count < 1 ? true : false));
+    }
+}
+
+<h2>Редактирование данных персонала</h2>
+<form asp-action="RedactPerson" asp-controller="Home">
+    <select asp-for="Id" asp-items="people"></select>
+    <label>Имя</label><br />
+    <input type="text" asp-for="Name" required /><br /><br />
+    <label>Фамилия</label><br />
+    <input type="text" asp-for="Surname" required /><br /><br />
+    <label>Отчество</label><br />
+    <input type="text" asp-for="Patronymic" /><br /><br />
+    <label>Должность</label><br />
+    <select asp-items="roles" asp-for="Role"></select><br /><br />
+    <button action="submit" value="Изменить"></button>
+</form>

@@ -1,0 +1,54 @@
+﻿@model Project
+
+
+@{
+    List<SelectListItem> people = new();
+    List<SelectListItem> projects = new();
+
+    foreach (Person p in ViewBag.People)
+    {
+        people.Add(new SelectListItem(string.Format("{0} {1} {2}", p.Surname, p.Name, p.Patronymic), p.Id.ToString(), people.Count < 1 ? true : false));
+    }
+
+    foreach (Project p in ViewBag.Projects)
+    {
+        projects.Add(new SelectListItem(p.Name, p.Id.ToString(), projects.Count < 1 ? true : false));
+    }
+}
+
+<h2>Редактирование проекта</h2>
+<form asp-action="RedactProject" asp-controller="Home">
+    <label>Название проекта</label>
+    <br />
+    <input type="text" asp-for="Name" required />
+    <br /><br />
+    <label>Даты начала и окончания проекта</label>
+    <br />
+    <input type="date" asp-for="StartingDate" required />→
+    <input type="date" asp-for="EndingDate" />
+    <br />
+    <label>Приоритет проекта. Чем больше, тем важнее</label>
+    <br />
+    <input type="number" asp-for="Priority" />
+    <br />
+    <br />
+    <label>Наименование компании-заказчика</label>
+    <br />
+    <input type="text" asp-for="ClientCompany" required />
+    <br /><br />
+    <label>Наименование компании-исполнителя</label>
+    <br />
+    <input type="text" asp-for="ExecutorCompany" required />
+    <br /><br />
+    <legend>Выберите руководителя проекта среди сотрудников:</legend>
+    <br />
+    <select asp-for="ManagerKey" asp-items="people" required></select>
+    <br /><br />
+    <legend>Выберите исполнителей проекта:</legend>
+    <br />
+    <label>Мультивыбор доступен при удержании Ctrl</label>
+    <br />
+    <select asp-for="PeopleKeys" asp-items="people" size="4" multiple required></select>
+    <br />
+    <button type="submit" value="Изменить"></button>
+</form>

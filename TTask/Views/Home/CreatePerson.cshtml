@@ -4,18 +4,18 @@
     List<SelectListItem> roles = new();
     roles.Add(new SelectListItem
     {
-        Text = "Employee",
+        Text = "Сотрудник",
         Value = "0",
         Selected = true
     });
     roles.Add(new SelectListItem
     {
-        Text = "Manager",
+        Text = "Менеджер проекта",
         Value = "1"
     });
     roles.Add(new SelectListItem
     {
-        Text = "CEO",
+        Text = "Руководитель",
         Value = "2"
     });
 }
@@ -23,23 +23,23 @@
 <h2>Занесение нового сотрудника</h2>
 <form asp-action="CreatePerson" asp-controller="Home">
     <p>
-        <label>Name</label><br/>
+        <label>Имя</label><br/>
         <input type="text" asp-for="Name" required />
     </p>
     <p>
-        <label>Surname</label>
+        <label>Фамилия</label>
         <input type="text" asp-for="Surname" required />
     </p>
     <p>
-        <label>Patronymic (if have one)</label>
+        <label>Отчество (если есть)</label>
         <input type="text" asp-for="Patronymic"/>
     </p>
     <p>
-        <label>E-mail</label>
+        <label>Электронная почта</label>
         <input type="text" asp-for="Email" required />
     </p>
     <p>
-        <label>Role</label>
+        <label>Должность</label>
         @Html.DropDownList("Role", roles);
     </p>
     <p>
